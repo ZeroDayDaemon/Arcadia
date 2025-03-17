@@ -1,0 +1,215 @@
+ - type: marking
+   id: IPCScreenBlue
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: blue
+
+ - type: marking
+   id: IPCScreenBreakout
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: breakout
+
+ - type: marking
+   id: IPCScreenConsole
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: console
+
+ - type: marking
+   id: IPCScreenEight
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: eight
+
+ - type: marking
+   id: IPCScreenGoggles
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: goggles
+
+ - type: marking
+   id: IPCScreenGolGlider
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: gol_glider
+
+ - type: marking
+   id: IPCScreenGreen
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: green
+
+ - type: marking
+   id: IPCScreenHeart
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: heart
+
+ - type: marking
+   id: IPCScreenMonoeye
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: monoeye
+
+ - type: marking
+   id: IPCScreenMusic
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: music
+
+ - type: marking
+   id: IPCScreenNature
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: nature
+
+ - type: marking
+   id: IPCScreenOrange
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: orange
+
+ - type: marking
+   id: IPCScreenPink
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: pink
+
+ - type: marking
+   id: IPCScreenPurple
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: purple
+
+ - type: marking
+   id: IPCScreenRainbow
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: rainbow
+
+ - type: marking
+   id: IPCScreenRed
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: red
+
+ - type: marking
+   id: IPCScreenRgb
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: rgb
+
+ - type: marking
+   id: IPCScreenScroll
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: scroll
+
+ - type: marking
+   id: IPCScreenShower
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: shower
+
+ - type: marking
+   id: IPCScreenSmoking
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: smoking
+
+ - type: marking
+   id: IPCScreenStatic
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: static
+
+ - type: marking
+   id: IPCScreenTest
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: test
+
+ - type: marking
+   id: IPCScreenWaiting
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: waiting
+
+ - type: marking
+   id: IPCScreenYellow
+   bodyPart: Head
+   markingCategory: Head
+   speciesRestriction: [IPC]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+     state: yellow

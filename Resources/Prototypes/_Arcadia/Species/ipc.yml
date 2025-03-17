@@ -20,7 +20,7 @@
     Special: MobHumanoidAnyMarking
     Head: MobIPCHead
     Chest: MobIPCTorso
-#    Eyes: MobIPCEyes # Screens probably
+    Eyes: MobIPCEyes
     LArm: MobIPCLArm
     RArm: MobIPCRArm
     LLeg: MobIPCLLeg
@@ -51,8 +51,8 @@
 - type: humanoidBaseSprite
   id: MobIPCEyes
   baseSprite:
-    sprite: _Arcadia/Mobs/Species/IPC/screens.rsi
-    state: eyes
+    sprite: _Arcadia/Mobs/Customization/IPC/ipc_screens.rsi
+    state: empty
 
 - type: humanoidBaseSprite
   id: MobIPCHead
