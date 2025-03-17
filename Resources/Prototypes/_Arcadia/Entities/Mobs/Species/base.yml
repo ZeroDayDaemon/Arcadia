@@ -1,48 +1,350 @@
 - type: entity
   save: false
   parent:
-  - MobFlammable
-  - BaseMobSpecies
+  - BaseMob
+  - MobDamageable
+  - MobPolymorphable
+  - MobCombat
+  - StripableInventoryBase
   id: BaseMobSpeciesRobotic
   abstract: true
   components:
+  - type: Sprite
+    layers:
+    - map: [ "enum.HumanoidVisualLayers.Chest" ]
+    - map: [ "enum.HumanoidVisualLayers.Head" ]
+    - map: [ "enum.HumanoidVisualLayers.Snout" ]
+    - map: [ "enum.HumanoidVisualLayers.Eyes" ]
+    - map: [ "enum.HumanoidVisualLayers.RArm" ]
+    - map: [ "enum.HumanoidVisualLayers.LArm" ]
+    - map: [ "enum.HumanoidVisualLayers.RLeg" ]
+    - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+    - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
+    - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
+    - map: ["jumpsuit"]
+    - map: ["enum.HumanoidVisualLayers.LFoot"]
+    - map: ["enum.HumanoidVisualLayers.RFoot"]
+    - map: ["enum.HumanoidVisualLayers.LHand"]
+    - map: ["enum.HumanoidVisualLayers.RHand"]
+    - map: [ "gloves" ]
+    - map: [ "shoes" ]
+    - map: [ "ears" ]
+    - map: [ "eyes" ]
+    - map: [ "belt" ]
+    - map: [ "id" ]
+    - map: [ "outerClothing" ]
+    - map: [ "back" ]
+    - map: [ "neck" ]
+    - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
+    - map: [ "enum.HumanoidVisualLayers.Hair" ]
+    - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
+    - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
+    - map: [ "enum.HumanoidVisualLayers.Tail" ]
+    - map: [ "mask" ]
+    - map: [ "head" ]
+    - map: [ "pocket1" ]
+    - map: [ "pocket2" ]
+    - map: ["enum.HumanoidVisualLayers.Handcuffs"]
+      color: "#ffffff"
+      sprite: Objects/Misc/handcuffs.rsi
+      state: body-overlay-2
+      visible: false
+    - map: [ "clownedon" ] # Dynamically generated
+      sprite: "Effects/creampie.rsi"
+      state: "creampie_human"
+      visible: false
+  - type: DamageVisuals
+    thresholds: [ 10, 20, 30, 50, 70, 100 ]
+    targetLayers:
+    - "enum.HumanoidVisualLayers.Chest"
+    - "enum.HumanoidVisualLayers.Head"
+    - "enum.HumanoidVisualLayers.LArm"
+    - "enum.HumanoidVisualLayers.LLeg"
+    - "enum.HumanoidVisualLayers.RArm"
+    - "enum.HumanoidVisualLayers.RLeg"
+    damageOverlayGroups:
+      Brute:
+        sprite: Mobs/Effects/brute_damage.rsi
+        color: "#FF0000"
+      Burn:
+        sprite: Mobs/Effects/burn_damage.rsi
+  - type: GenericVisualizer
+    visuals:
+      enum.CreamPiedVisuals.Creamed:
+        clownedon: # Not 'creampied' bc I can already see Skyrat complaining about conflicts.
+          True: {visible: true}
+          False: {visible: false}
+  - type: StatusIcon
+    bounds: -0.5,-0.5,0.5,0.5
+  - type: RotationVisuals
+    defaultRotation: 90
+    horizontalRotation: 90
+  - type: HumanoidAppearance
+    species: Human
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      60: 0.7
+      80: 0.5
+  - type: Fixtures
+    fixtures: # TODO: This needs a second fixture just for mob collisions.
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 185
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 2.5
+    baseSprintSpeed : 4.5
+  - type: FloorOcclusion
+  - type: RangedDamageSound
+    soundGroups:
+      Brute:
+        collection:
+          MetalBulletImpact
+    soundTypes:
+      Heat:
+        collection:
+          MetalLaserImpact
+  - type: Reactive
+    groups:
+      Flammable: [ Touch ]
+      Extinguish: [ Touch ]
+      Acidic: [Touch]
+    reactions:
+    - reagents: [Water, SpaceCleaner]
+      methods: [Touch]
+      effects:
+      - !type:WashCreamPieReaction
+  - type: StatusEffects
+    allowed:
+    - Stun
+    - KnockedDown
+    - SlowedDown
+    - Stutter
+    - SeeingRainbows
+    - Electrocution
+    - Drunk
+    - SlurredSpeech
+    - RatvarianLanguage
+    - PressureImmunity
+    - Muted
+    - ForcedSleep
+    - TemporaryBlindness
+    - Pacified
+    - StaminaModifier
+    - Flashed
+    - RadiationProtection
+    - Drowsiness
+    - Adrenaline
+  - type: Body
+    prototype: Human
+    requiredLegs: 2
+  - type: Identity
+  - type: IdExaminable
+  - type: Hands
+  - type: ComplexInteraction
+  - type: FloatingVisuals
+  - type: Climbing
+  - type: Cuffable
+  - type: Ensnareable
+    sprite: Objects/Misc/ensnare.rsi
+    state: icon
+  - type: AnimationPlayer
+  - type: Buckle
+  - type: CombatMode
+    canDisarm: true
+  - type: MeleeWeapon
+    soundHit:
+      collection: Punch
+    angle: 30
+    animation: WeaponArcFist
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 5
+  - type: SSDIndicator
+  - type: StandingState
+  - type: MindContainer
+    showExamineInfo: true
+  - type: CanEnterCryostorage
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessString: hugging-success-generic
+    interactSuccessSound: /Audio/Effects/thudswoosh.ogg
+    messagePerceivedByOthers: hugging-success-generic-others
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+  - type: CreamPied
+  - type: Stripping
+  - type: UserInterface
+    interfaces:
+      enum.HumanoidMarkingModifierKey.Key:
+        type: HumanoidMarkingModifierBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
+  - type: Puller
+  - type: Speech
+    speechVerb: Robotic
+    speechSounds: Borg
+  - type: DamageForceSay
+  - type: Vocal
+    sounds:
+      Male: UnisexSilicon
+      Female: UnisexSilicon
+      Unsexed: UnisexSilicon
+    screamAction: null
+  - type: Emoting
+  - type: BodyEmotes
+    soundsId: GeneralBodyEmotes
+  - type: Grammar
+    attributes:
+      proper: true
+  - type: MobPrice
+    price: 1500 # Kidnapping a living person and selling them for cred is a good move.
+    deathPenalty: 0.01 # However they really ought to be living and intact, otherwise they're worth 100x less.
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - AnomalyHost
+### End Of Copy Of BaseMobSpecies
   - type: Blindable
-  # Other
-  - type: Temperature
-    heatDamageThreshold: 325
-    coldDamageThreshold: 260
-    currentTemperature: 310.15
-    specificHeat: 42
-    coldDamage:
+  - type: DamageOnHighSpeedImpact
+    damage:
       types:
-        Cold: 0.1 #per second, scales with temperature & other constants
-    heatDamage:
-      types:
-        Heat: 1.5 #per second, scales with temperature & other constants
-  - type: TemperatureSpeed
+        Blunt: 5
+    soundHit:
+      collection: MetalThud
+  - type: NoSlip
+  - type: StaticPrice
+    price: 2500
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Critical
+    - Dead
+  - type: MobThresholds
     thresholds:
-      293: 0.8
-      280: 0.6
-      260: 0.4
-  - type: ThermalRegulator
-    metabolismHeat: 800
-    radiatedHeat: 100
-    implicitHeatRegulation: 500
-    sweatHeatRegulation: 2000
-    shiveringHeatRegulation: 2000
-    normalBodyTemperature: 310.15
-    thermalRegulationTemperatureThreshold: 25
-  - type: Butcherable
-    butcheringType: Spike # TODO human.
-    spawned:
-      - id: SheetPlasteel1
-        amount: 20
-      - id: SheetSteel1
-        amount: 10
-      - id: SheetGlass1
-        amount: 5
-      - id: SheetPlastic1
-        amount: 5
-# add wires or something later
+      0: Alive
+      100: Critical
+      200: Dead
+    stateAlertDict:
+      Alive: BorgHealth
+      Critical: BorgCrit
+      Dead: BorgDead
+    showOverlays: false
+    allowRevives: true
+  - type: HealthExaminable
+    examinableTypes:
+      - Blunt
+      - Slash
+      - Piercing
+      - Heat
+      - Shock
+    locPrefix: silicon
+  - type: IonStormTarget
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Binary
+    - Common
+  - type: ActiveRadio
+    channels:
+    - Binary
+    - Common
+  - type: ZombieImmune
+  - type: DamageOnInteractProtection
+    damageProtection:
+      flatReductions:
+        Heat: 10 # capable of touching light bulbs and stoves without feeling pain!
   - type: FireVisuals
     alternateState: Standing
+  - type: Repairable
+    doAfterDelay: 10
+    allowSelfRepair: true
+  - type: ContainerContainer
+    containers:
+      cell_slot: !type:ContainerSlot { }
+  - type: PowerCellSlot
+    cellSlotId: cell_slot
+    fitsInCharger: true
+  - type: ItemToggle
+    onActivate: false # You should not be able to turn off a borg temporarily.
+    activated: false # gets activated when a mind is added
+    onUse: false # no item-borg toggling sorry
+  - type: PowerCellDraw
+    drawRate: 0.6
+  # no ToggleCellDraw since dont want to lose access when power is gone
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellHyper
+  - type: TypingIndicator
+    proto: robot
+  - type: DamagedSiliconAccent
+  - type: UnblockableSpeech
+  - type: Damageable
+    damageContainer: Silicon
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 75
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Machines/warning_buzzer.ogg
+          params:
+            volume: 5
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:EmptyContainersBehaviour
+        containers:
+        - cell_slot
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+#Unsure about the light stuff tbh
+  # - type: HandheldLight
+  #   toggleOnInteract: false
+  #   wattage: 0.2
+  #   blinkingBehaviourId: blinking
+  #   radiatingBehaviourId: radiating
+  # - type: LightBehaviour
+  #   behaviours:
+  #   - !type:FadeBehaviour
+  #     id: radiating
+  #     maxDuration: 2.0
+  #     startValue: 3.0
+  #     endValue: 2.0
+  #     isLooped: true
+  #     reverseWhenFinished: true
+  #   - !type:PulseBehaviour
+  #     id: blinking
+  #     interpolate: Nearest
+  #     maxDuration: 1.0
+  #     minValue: 0.1
+  #     maxValue: 2.0
+  #     isLooped: true
+  # - type: ToggleableLightVisuals
+  # - type: PointLight
+  #   enabled: false
+  #   mask: /Textures/Effects/LightMasks/cone.png
+  #   autoRot: true
+  #   radius: 4
+  #   netsync: false
+
+  - type: BorgChassis

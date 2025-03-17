@@ -4,11 +4,20 @@
   name: Urist McTvHead
   abstract: true
   components:
-  - type: Hunger
   - type: Icon
     sprite: _Arcadia/Mobs/Species/IPC/parts.rsi
     state: full
-  - type: Thirst
+  - type: Butcherable
+    butcheringType: Spike # TODO human.
+    spawned:
+      - id: SheetPlasteel1
+        amount: 10
+      - id: SheetSteel1
+        amount: 10
+      - id: SheetGlass1
+        amount: 10
+      - id: SheetPlastic1
+        amount: 10 # add wires or something later
   - type: HumanoidAppearance
     species: IPC
     hideLayersOnEquip:
