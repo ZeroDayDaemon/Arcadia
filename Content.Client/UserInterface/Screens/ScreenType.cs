@@ -9,5 +9,9 @@ public enum ScreenType
     /// <summary>
     ///     The classic SS13 user interface.
     /// </summary>
-    Separated
+    Separated,
+    /// <summary>
+    ///     The classic SS13 user interface, expanded and tailored for arcadia station.
+    /// </summary>
+    Arcadian
 }
