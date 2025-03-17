@@ -29,8 +29,8 @@
     - StringInstrument
   - type: MeleeWeapon
     wideAnimationRotation: 45
-    soundHit: /Audio/Weapons/guitarsmash.ogg
-    soundNoDamage: /Audio/Weapons/guitarsmash.ogg
+    soundHit: /Audio/_Arcadia/Weapons/electricguitarhit.ogg
+    soundNoDamage: /Audio/_Arcadia/Weapons/electricguitarhit.ogg
     damage:
       types:
         Blunt: 8
