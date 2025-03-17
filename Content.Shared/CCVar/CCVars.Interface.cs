@@ -23,6 +23,12 @@ public sealed partial class CCVars
         CVarDef.Create("ui.layout", "Default", CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
+    /// The layout style of the UI for arcadia station
+    /// </summary>
+    public static readonly CVarDef<string> UILayoutArcadia =
+        CVarDef.Create("ui.layout_arcadia", "Arcadian", CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
     /// The dimensions for the chat window in Default UI mode
     /// </summary>
     public static readonly CVarDef<string> DefaultScreenChatSize =

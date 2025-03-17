@@ -1,7 +1,8 @@
 ﻿<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Content Server+Client" type="CompoundRunConfigurationType">
+  <configuration default="false" name="Content Server+Client+Linter" type="CompoundRunConfigurationType">
     <toRun name="Content.Client" type="DotNetProject" />
     <toRun name="Content.Server" type="DotNetProject" />
+    <toRun name="Content.YAMLLinter" type="DotNetProject" />
     <method v="2" />
   </configuration>
 </component>

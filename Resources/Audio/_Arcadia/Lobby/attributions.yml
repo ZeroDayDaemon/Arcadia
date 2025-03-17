@@ -1,0 +1,9 @@
+- files: ["cipher.ogg"]
+  license: "CC-BY-SA-4.0"
+  copyright: "Cipher by LEMMiNO. Converted from FLAC to OGG."
+  source: "https://soundcloud.com/lemmino/cipher"
+
+- files: ["cosmonaut.ogg"]
+  license: "CC-BY-ND-4.0"
+  copyright: "Cosmonaut by Artifyber. Converted from FLAC to OGG."
+  source: "Provided to Arcadia Station by Artifyber"
