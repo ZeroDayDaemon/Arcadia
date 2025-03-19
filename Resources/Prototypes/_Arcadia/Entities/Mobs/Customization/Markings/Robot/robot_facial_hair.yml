@@ -1,0 +1,215 @@
+ - type: marking
+   id: RobotFacialHairBlue
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: blue
+
+ - type: marking
+   id: RobotFacialHairBreakout
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: breakout
+
+ - type: marking
+   id: RobotFacialHairConsole
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: console
+
+ - type: marking
+   id: RobotFacialHairEight
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: eight
+
+ - type: marking
+   id: RobotFacialHairGoggles
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: goggles
+
+ - type: marking
+   id: RobotFacialHairGolGlider
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: gol_glider
+
+ - type: marking
+   id: RobotFacialHairGreen
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: green
+
+ - type: marking
+   id: RobotFacialHairHeart
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: heart
+
+ - type: marking
+   id: RobotFacialHairMonoeye
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: monoeye
+
+ - type: marking
+   id: RobotFacialHairMusic
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: music
+
+ - type: marking
+   id: RobotFacialHairNature
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: nature
+
+ - type: marking
+   id: RobotFacialHairOrange
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: orange
+
+ - type: marking
+   id: RobotFacialHairPink
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: pink
+
+ - type: marking
+   id: RobotFacialHairPurple
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: purple
+
+ - type: marking
+   id: RobotFacialHairRainbow
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: rainbow
+
+ - type: marking
+   id: RobotFacialHairRed
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: red
+
+ - type: marking
+   id: RobotFacialHairRgb
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: rgb
+
+ - type: marking
+   id: RobotFacialHairScroll
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: scroll
+
+ - type: marking
+   id: RobotFacialHairShower
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: shower
+
+ - type: marking
+   id: RobotFacialHairSmoking
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: smoking
+
+ - type: marking
+   id: RobotFacialHairStatic
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: static
+
+ - type: marking
+   id: RobotFacialHairTest
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: test
+
+ - type: marking
+   id: RobotFacialHairWaiting
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: waiting
+
+ - type: marking
+   id: RobotFacialHairYellow
+   bodyPart: FacialHair
+   markingCategory: FacialHair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+     state: yellow

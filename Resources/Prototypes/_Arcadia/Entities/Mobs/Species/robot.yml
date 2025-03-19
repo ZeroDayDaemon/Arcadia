@@ -1,11 +1,11 @@
 - type: entity
-  parent: BaseMobSpeciesRobotic
-  id: BaseMobIPC
+  parent: BaseMobSpeciesMachine
+  id: BaseMobRobot
   name: Urist McTvHead
   abstract: true
   components:
   - type: Icon
-    sprite: _Arcadia/Mobs/Species/IPC/parts.rsi
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
     state: full
   - type: Butcherable
     butcheringType: Spike # TODO human.
@@ -19,7 +19,7 @@
       - id: SheetPlastic1
         amount: 10 # add wires or something later
   - type: HumanoidAppearance
-    species: IPC
+    species: Robot
     hideLayersOnEquip:
     - Hair
     - Snout
@@ -33,7 +33,7 @@
 
 - type: entity
   parent: BaseSpeciesDummy
-  id: MobIPCDummy
+  id: MobRobotDummy
   categories: [ HideSpawnMenu ]
   components:
   - type: Inventory

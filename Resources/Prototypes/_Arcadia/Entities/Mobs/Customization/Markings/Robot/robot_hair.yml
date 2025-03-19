@@ -1,0 +1,80 @@
+ - type: marking
+   id: RobotHairAntennae
+   bodyPart: Hair
+   markingCategory: Hair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_hair.rsi
+     state: antennae
+
+ - type: marking
+   id: RobotHairAntlers
+   bodyPart: Hair
+   markingCategory: Hair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_hair.rsi
+     state: antlers
+
+ - type: marking
+   id: RobotHairCrowned
+   bodyPart: Hair
+   markingCategory: Hair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_hair.rsi
+     state: crowned
+
+ - type: marking
+   id: RobotHairCyberHead
+   bodyPart: Hair
+   markingCategory: Hair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_hair.rsi
+     state: cyberhead
+
+ - type: marking
+   id: RobotHairDroneEyes
+   bodyPart: Hair
+   markingCategory: Hair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_hair.rsi
+     state: droneeyes
+
+ - type: marking
+   id: RobotHairLight
+   bodyPart: Hair
+   markingCategory: Hair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_hair.rsi
+     state: light
+
+ - type: marking
+   id: RobotHairSideLights
+   bodyPart: Hair
+   markingCategory: Hair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_hair.rsi
+     state: sidelights
+
+ - type: marking
+   id: RobotHairTesla
+   bodyPart: Hair
+   markingCategory: Hair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_hair.rsi
+     state: tesla
+
+ - type: marking
+   id: RobotHairTvAntennae
+   bodyPart: Hair
+   markingCategory: Hair
+   speciesRestriction: [Robot]
+   sprites:
+   - sprite: _Arcadia/Mobs/Customization/Robot/robot_hair.rsi
+     state: tvantennae

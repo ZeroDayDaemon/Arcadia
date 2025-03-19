@@ -6,7 +6,7 @@
   - MobPolymorphable
   - MobCombat
   - StripableInventoryBase
-  id: BaseMobSpeciesRobotic
+  id: BaseMobSpeciesMachine
   abstract: true
   components:
   - type: Sprite
@@ -65,9 +65,10 @@
     damageOverlayGroups:
       Brute:
         sprite: Mobs/Effects/brute_damage.rsi
-        color: "#FF0000"
+        color: "#000000"
       Burn:
         sprite: Mobs/Effects/burn_damage.rsi
+        color: "#000000"
   - type: GenericVisualizer
     visuals:
       enum.CreamPiedVisuals.Creamed:
@@ -125,22 +126,12 @@
     - Stun
     - KnockedDown
     - SlowedDown
-    - Stutter
-    - SeeingRainbows
     - Electrocution
-    - Drunk
-    - SlurredSpeech
-    - RatvarianLanguage
-    - PressureImmunity
     - Muted
     - ForcedSleep
-    - TemporaryBlindness
     - Pacified
     - StaminaModifier
     - Flashed
-    - RadiationProtection
-    - Drowsiness
-    - Adrenaline
   - type: Body
     prototype: Human
     requiredLegs: 2
@@ -215,6 +206,7 @@
     - DoorBumpOpener
     - AnomalyHost
 ### End Of Copy Of BaseMobSpecies
+
   - type: Blindable
   - type: DamageOnHighSpeedImpact
     damage:
@@ -223,8 +215,6 @@
     soundHit:
       collection: MetalThud
   - type: NoSlip
-  - type: StaticPrice
-    price: 2500
   - type: MobState
     allowedStates:
     - Alive
@@ -243,11 +233,13 @@
     allowRevives: true
   - type: HealthExaminable
     examinableTypes:
-      - Blunt
-      - Slash
-      - Piercing
-      - Heat
-      - Shock
+    - Blunt
+    - Slash
+    - Piercing
+    - Heat
+    - Shock
+    - Cold
+    - Caustic
     locPrefix: silicon
   - type: IonStormTarget
   - type: IntrinsicRadioReceiver
@@ -267,8 +259,10 @@
   - type: FireVisuals
     alternateState: Standing
   - type: Repairable
-    doAfterDelay: 10
+    doAfterDelay: 30
     allowSelfRepair: true
+  - type: WiresPanel
+  - type: ActivatableUIRequiresPanel
   - type: ContainerContainer
     containers:
       cell_slot: !type:ContainerSlot { }
@@ -306,16 +300,12 @@
             volume: 5
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 600
       behaviors:
       - !type:PlaySoundBehavior
         sound:
           collection: MetalBreak
-      - !type:EmptyContainersBehaviour
-        containers:
-        - cell_slot
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
+      - !type:GibBehavior { }
 
 #Unsure about the light stuff tbh
   # - type: HandheldLight

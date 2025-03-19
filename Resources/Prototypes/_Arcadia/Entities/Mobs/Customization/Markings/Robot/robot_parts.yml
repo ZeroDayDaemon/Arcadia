@@ -1,0 +1,834 @@
+# Morpheus Cyberkinetics
+
+- type: marking
+  id: RobotHeadMorpheus
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/morpheus.rsi
+    state: head
+
+- type: marking
+  id: RobotHeadMorpheusAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/morpheus.rsi
+    state: head_alt
+
+- type: marking
+  id: RobotChestMorpheus
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/morpheus.rsi
+    state: torso
+
+- type: marking
+  id: RobotLLegMorpheus
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/morpheus.rsi
+    state: l_leg
+
+- type: marking
+  id: RobotRLegMorpheus
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/morpheus.rsi
+    state: r_leg
+
+- type: marking
+  id: RobotLArmMorpheus
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/morpheus.rsi
+    state: l_arm
+
+- type: marking
+  id: RobotRArmMorpheus
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/morpheus.rsi
+    state: r_arm
+
+# - type: marking
+#   id: RobotLFootMorpheus
+#   bodyPart: LFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/morpheus.rsi
+#     state: l_foot
+
+# - type: marking
+#   id: RobotRFootMorpheus
+#   bodyPart: RFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/morpheus.rsi
+#     state: r_foot
+
+# - type: marking
+#   id: RobotLHandMorpheus
+#   bodyPart: LHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/morpheus.rsi
+#     state: l_hand
+
+# - type: marking
+#   id: RobotRHandMorpheus
+#   bodyPart: RHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/morpheus.rsi
+#     state: r_hand
+
+# Bishop Cybernetics
+
+- type: marking
+  id: RobotHeadBishop
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+    state: head
+
+- type: marking
+  id: RobotHeadBishopAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+    state: head_alt
+
+- type: marking
+  id: RobotHeadBishopMonitor
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+    state: head_monitor
+
+- type: marking
+  id: RobotChestBishop
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+    state: torso
+
+- type: marking
+  id: RobotLLegBishop
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+    state: l_leg
+
+- type: marking
+  id: RobotRLegBishop
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+    state: r_leg
+
+- type: marking
+  id: RobotLArmBishop
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+    state: l_arm
+
+- type: marking
+  id: RobotRArmBishop
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+    state: r_arm
+
+# - type: marking
+#   id: RobotLFootBishop
+#   bodyPart: LFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+#     state: l_foot
+
+# - type: marking
+#   id: RobotRFootBishop
+#   bodyPart: RFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+#     state: r_foot
+
+# - type: marking
+#   id: RobotLHandBishop
+#   bodyPart: LHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+#     state: l_hand
+
+# - type: marking
+#   id: RobotRHandBishop
+#   bodyPart: RHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/bishop.rsi
+#     state: r_hand
+
+# Hephaestus Industries
+
+- type: marking
+  id: RobotHeadHephaestus
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+    state: head
+
+- type: marking
+  id: RobotHeadHephaestusAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+    state: head_alt
+
+- type: marking
+  id: RobotHeadHephaestusMonitor
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+    state: head_monitor
+
+- type: marking
+  id: RobotChestHephaestus
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+    state: torso
+
+- type: marking
+  id: RobotLLegHephaestus
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+    state: l_leg
+
+- type: marking
+  id: RobotRLegHephaestus
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+    state: r_leg
+
+- type: marking
+  id: RobotLArmHephaestus
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+    state: l_arm
+
+- type: marking
+  id: RobotRArmHephaestus
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+    state: r_arm
+
+# - type: marking
+#   id: RobotLFootHephaestus
+#   bodyPart: LFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+#     state: l_foot
+
+# - type: marking
+#   id: RobotRFootHephaestus
+#   bodyPart: RFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+#     state: r_foot
+
+# - type: marking
+#   id: RobotLHandHephaestus
+#   bodyPart: LHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+#     state: l_hand
+
+# - type: marking
+#   id: RobotRHandHephaestus
+#   bodyPart: RHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/hephaestus.rsi
+#     state: r_hand
+
+# Ward-Takahashi
+
+- type: marking
+  id: RobotHeadWardTakahashi
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+    state: head
+
+- type: marking
+  id: RobotHeadWardTakahashiAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+    state: head_alt
+
+- type: marking
+  id: RobotHeadWardTakahashiMonitor
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+    state: head_monitor
+
+- type: marking
+  id: RobotChestWardTakahashi
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+    state: torso
+
+- type: marking
+  id: RobotLLegWardTakahashi
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+    state: l_leg
+
+- type: marking
+  id: RobotRLegWardTakahashi
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+    state: r_leg
+
+- type: marking
+  id: RobotLArmWardTakahashi
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+    state: l_arm
+
+- type: marking
+  id: RobotRArmWardTakahashi
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+    state: r_arm
+
+# - type: marking
+#   id: RobotLFootWardTakahashi
+#   bodyPart: LFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+#     state: l_foot
+
+# - type: marking
+#   id: RobotRFootWardTakahashi
+#   bodyPart: RFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+#     state: r_foot
+
+# - type: marking
+#   id: RobotLHandWardTakahashi
+#   bodyPart: LHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+#     state: l_hand
+
+# - type: marking
+#   id: RobotRHandWardTakahashi
+#   bodyPart: RHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/wardtakahashi.rsi
+#     state: r_hand
+
+# Xion Manufacturing Group
+
+- type: marking
+  id: RobotHeadXion
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: head
+
+- type: marking
+  id: RobotHeadXionAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: head_alt
+
+- type: marking
+  id: RobotHeadXionMonitor
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: head_monitor
+
+- type: marking
+  id: RobotChestXion
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: torso
+
+- type: marking
+  id: RobotLLegXion
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: l_leg
+
+- type: marking
+  id: RobotRLegXion
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: r_leg
+
+- type: marking
+  id: RobotLArmXion
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: l_arm
+
+- type: marking
+  id: RobotRArmXion
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: r_arm
+
+# - type: marking
+#   id: RobotLFootXion
+#   bodyPart: LFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+#     state: l_foot
+
+# - type: marking
+#   id: RobotRFootXion
+#   bodyPart: RFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+#     state: r_foot
+
+# - type: marking
+#   id: RobotLHandXion
+#   bodyPart: LHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+#     state: l_hand
+
+# - type: marking
+#   id: RobotRHandXion
+#   bodyPart: RHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+#     state: r_hand
+
+# Zeng-Hu Pharmaceuticals
+
+- type: marking
+  id: RobotHeadZengHu
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/zenghu.rsi
+    state: head
+
+- type: marking
+  id: RobotChestZengHu
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/zenghu.rsi
+    state: torso
+
+- type: marking
+  id: RobotLLegZengHu
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/zenghu.rsi
+    state: l_leg
+
+- type: marking
+  id: RobotRLegZengHu
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/zenghu.rsi
+    state: r_leg
+
+- type: marking
+  id: RobotLArmZengHu
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/zenghu.rsi
+    state: l_arm
+
+- type: marking
+  id: RobotRArmZengHu
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/zenghu.rsi
+    state: r_arm
+
+# - type: marking
+#   id: RobotLFootZengHu
+#   bodyPart: LFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/zenghu.rsi
+#     state: l_foot
+
+# - type: marking
+#   id: RobotRFootZengHu
+#   bodyPart: RFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/zenghu.rsi
+#     state: r_foot
+
+# - type: marking
+#   id: RobotLHandZengHu
+#   bodyPart: LHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/zenghu.rsi
+#     state: l_hand
+
+# - type: marking
+#   id: RobotRHandZengHu
+#   bodyPart: RHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/zenghu.rsi
+#     state: r_hand
+
+# Shellguard Munitions
+
+- type: marking
+  id: RobotHeadShellguard
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: head
+
+- type: marking
+  id: RobotHeadShellguardAlt
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: head_alt
+
+- type: marking
+  id: RobotHeadShellguardMonitor
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: head_monitor
+
+- type: marking
+  id: RobotChestShellguard
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: torso
+
+- type: marking
+  id: RobotLLegShellguard
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: l_leg
+
+- type: marking
+  id: RobotRLegShellguard
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: r_leg
+
+- type: marking
+  id: RobotLArmShellguard
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/xion.rsi
+    state: l_arm
+
+- type: marking
+  id: RobotRArmShellguard
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/shellguard.rsi
+    state: r_arm
+
+# - type: marking
+#   id: RobotLFootShellguard
+#   bodyPart: LFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/shellguard.rsi
+#     state: l_foot
+
+# - type: marking
+#   id: RobotRFootShellguard
+#   bodyPart: RFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/shellguard.rsi
+#     state: r_foot
+
+# - type: marking
+#   id: RobotLHandShellguard
+#   bodyPart: LHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/shellguard.rsi
+#     state: l_hand
+
+# - type: marking
+#   id: RobotRHandShellguard
+#   bodyPart: RHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/shellguard.rsi
+#     state: r_hand
+
+# Unbranded
+
+- type: marking
+  id: RobotHeadUnbranded
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/unbranded.rsi
+    state: head
+
+- type: marking
+  id: RobotChestUnbranded
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/unbranded.rsi
+    state: torso
+
+- type: marking
+  id: RobotLLegUnbranded
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/unbranded.rsi
+    state: l_leg
+
+- type: marking
+  id: RobotRLegUnbranded
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/unbranded.rsi
+    state: r_leg
+
+- type: marking
+  id: RobotLArmUnbranded
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/unbranded.rsi
+    state: l_arm
+
+- type: marking
+  id: RobotRArmUnbranded
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Robot]
+  sprites:
+  - sprite: _Arcadia/Mobs/Customization/Robot/unbranded.rsi
+    state: r_arm
+
+# - type: marking
+#   id: RobotLFootUnbranded
+#   bodyPart: LFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/unbranded.rsi
+#     state: l_foot
+
+# - type: marking
+#   id: RobotRFootUnbranded
+#   bodyPart: RFoot
+#   markingCategory: Feet
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/unbranded.rsi
+#     state: r_foot
+
+# - type: marking
+#   id: RobotLHandUnbranded
+#   bodyPart: LHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/unbranded.rsi
+#     state: l_hand
+
+# - type: marking
+#   id: RobotRHandUnbranded
+#   bodyPart: RHand
+#   markingCategory: Hands
+#   speciesRestriction: [Robot]
+#   sprites:
+#   - sprite: _Arcadia/Mobs/Customization/Robot/unbranded.rsi
+#     state: r_hand

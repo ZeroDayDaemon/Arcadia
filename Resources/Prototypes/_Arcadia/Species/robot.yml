@@ -1,0 +1,145 @@
+- type: species
+  id: Robot
+  name: species-name-robot
+  roundStart: true
+  prototype: MobRobot
+  sprites: MobRobotSprites
+  markingLimits: MobRobotMarkingLimits
+  dollPrototype: MobRobotDummy
+  skinColoration: Hues
+
+# The lack of a layer means that
+# this person cannot have round-start anything
+# applied to that layer. It has to instead
+# be defined as a 'custom base layer'
+# in either the mob's starting marking prototype,
+# or it has to be added in C#.
+- type: speciesBaseSprites
+  id: MobRobotSprites
+  sprites:
+    Special: MobHumanoidAnyMarking
+    Hair: MobRobotHair
+    FacialHair: MobRobotFacialHair
+    Head: MobRobotHead
+    Chest: MobRobotTorso
+    Eyes: MobRobotEyes
+    LArm: MobRobotLArm
+    RArm: MobRobotRArm
+    LLeg: MobRobotLLeg
+    RLeg: MobRobotRLeg
+
+- type: markingPoints
+  id: MobRobotMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Special:
+      points: 0
+      required: false
+    Hair:
+      points: 1
+      required: false
+    FacialHair:
+      points: 1
+      required: false
+    HeadTop:
+      points: 1
+      required: false
+    Chest:
+      points: 1
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobRobotHair
+  baseSprite:
+    sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+    state: empty
+
+- type: humanoidBaseSprite
+  id: MobRobotFacialHair
+  baseSprite:
+    sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+    state: empty
+
+- type: humanoidBaseSprite
+  id: MobRobotEyes
+  baseSprite:
+    sprite: _Arcadia/Mobs/Customization/Robot/robot_facial_hair.rsi
+    state: empty
+
+- type: humanoidBaseSprite
+  id: MobRobotHead
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: head
+
+- type: humanoidBaseSprite
+  id: MobRobotHeadMale
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: head
+
+- type: humanoidBaseSprite
+  id: MobRobotHeadFemale
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: head
+
+- type: humanoidBaseSprite
+  id: MobRobotTorso
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: torso
+
+- type: humanoidBaseSprite
+  id: MobRobotTorsoMale
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: torso
+
+- type: humanoidBaseSprite
+  id: MobRobotTorsoFemale
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: torso
+
+- type: humanoidBaseSprite
+  id: MobRobotLLeg
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobRobotLArm
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobRobotLHand
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobRobotLFoot
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobRobotRLeg
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobRobotRArm
+  baseSprite:
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: r_arm
