@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "license": null,
-  "copyright": null,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from https://github.com/ParadiseSS13/Paradise/blob/55b500c9348158d899ab252c456711a1869bc845/icons/mob/sprite_accessories/ipc/ipc_head_accessories.dmi and modified by Daemon",
   "size": {
     "x": 32,
     "y": 32
