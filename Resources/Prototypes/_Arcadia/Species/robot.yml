@@ -6,7 +6,7 @@
   sprites: MobRobotSprites
   markingLimits: MobRobotMarkingLimits
   dollPrototype: MobRobotDummy
-  skinColoration: Hues
+  skinColoration: TintedHues
 
 # The lack of a layer means that
 # this person cannot have round-start anything

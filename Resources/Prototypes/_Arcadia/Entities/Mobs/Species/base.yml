@@ -5,6 +5,7 @@
   - MobDamageable
   - MobPolymorphable
   - MobCombat
+  - MobFlammable
   - StripableInventoryBase
   id: BaseMobSpeciesMachine
   abstract: true
@@ -337,4 +338,4 @@
   #   radius: 4
   #   netsync: false
 
-  - type: BorgChassis
+  # - type: BorgChassis

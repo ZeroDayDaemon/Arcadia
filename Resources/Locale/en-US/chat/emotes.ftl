@@ -52,6 +52,7 @@ chat-emote-msg-salute = salutes.
 chat-emote-msg-gasp = gasps.
 chat-emote-msg-deathgasp = seizes up and falls limp, {POSS-ADJ($entity)} eyes dead and lifeless...
 chat-emote-msg-deathgasp-monkey = lets out a faint chimper as {SUBJECT($entity)} collapses and stops moving...
+chat-emote-msg-deathgasp-robot = gives a short series of shrill beeps, {POSS-ADJ($entity)} chassis shuddering before falling limp, nonfunctional.
 chat-emote-msg-buzz = buzzes!
 chat-emote-msg-weh = wehs!
 chat-emote-msg-hew = hews!

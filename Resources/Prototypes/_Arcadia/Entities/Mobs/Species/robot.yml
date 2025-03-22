@@ -8,21 +8,12 @@
     sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
     state: full
   - type: Butcherable
-    butcheringType: Spike # TODO human.
+    butcheringType: Spike
     spawned:
-      - id: SheetPlasteel1
-        amount: 10
       - id: SheetSteel1
         amount: 10
-      - id: SheetGlass1
-        amount: 10
-      - id: SheetPlastic1
-        amount: 10 # add wires or something later
   - type: HumanoidAppearance
     species: Robot
-    hideLayersOnEquip:
-    - Hair
-    - Snout
   - type: Inventory
     femaleDisplacements:
       jumpsuit:

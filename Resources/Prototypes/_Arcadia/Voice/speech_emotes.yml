@@ -1,0 +1,8 @@
+- type: emote
+  id: RobotDeathgasp
+  name: chat-emote-name-deathgasp-robot
+  icon: Interface/Emotes/deathgasp.png
+  whitelist:
+    components:
+    - MobState
+  chatMessages: ["chat-emote-msg-deathgasp-robot"]
